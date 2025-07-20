@@ -5,7 +5,7 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
   const lastName = document.getElementById('lastName').value.trim();
   const nationality = document.getElementById('nationality').value.trim();
   const passportNumber = document.getElementById('passportNumber').value.trim();
-  const tazkiraNumber = document.getElementById('tazkiraNumber').value.trim();
+  const tazkiraNumber = document.getElementById('ID Number').value.trim();
   const caseNumber = document.getElementById('caseNumber').value.trim();
 
   fetch('https://raw.githubusercontent.com/Aryan176-cyber/Track-Application-Australia/main/data.json')
@@ -19,7 +19,7 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
         user.lastName === lastName &&
         user.nationality === nationality &&
         user.passport === passportNumber &&
-        user.tazkira === tazkiraNumber &&
+        user.National ID === IDNumber &&
         user.caseNumber === caseNumber
       );
 
