@@ -19,7 +19,7 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
         user.lastName === lastName &&
         user.nationality === nationality &&
         user.passport === passportNumber &&
-        user.ID === IDNumber &&
+        user.IDNumber === IDNumber &&
         user.caseNumber === caseNumber
       );
 
