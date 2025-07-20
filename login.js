@@ -8,7 +8,7 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
   const tazkiraNumber = document.getElementById('tazkiraNumber').value.trim();
   const caseNumber = document.getElementById('caseNumber').value.trim();
 
-  fetch('https://raw.githubusercontent.com/immihomeaffairs-gov-au/Tracking-Humanitarian-Afghanistan/main/data.json')
+  fetch('https://raw.githubusercontent.com/Aryan176-cyber/Track-Application-Australia/main/data.json')
     .then(response => {
       if (!response.ok) throw new Error('Network response was not ok');
       return response.json();
