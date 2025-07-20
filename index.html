@@ -9,8 +9,27 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="login-container">
-    <h2>Track your Application</h2>
+  <!-- لودینگ -->
+  <div id="loading">
+    <img src="https://i.gifer.com/ZZ5H.gif" alt="Loading..." />
+  </div>
+
+  <!-- محتوای اصلی -->
+  <div id="main-content" style="display: none;">
+    <!-- اینجا محتوای سایت شما قرار می‌گیرد -->
+    <h1>سلام! به سایت ما خوش آمدید</h1>
+  </div>
+
+  <script>
+    window.addEventListener("load", function () {
+      setTimeout(function () {
+        document.getElementById("loading").style.display = "none";
+        document.getElementById("main-content").style.display = "block";
+      }, 5000); // 5 ثانیه
+    });
+  </script>
+</body>
+
     <form id="loginForm">
       <input type="text" id="firstName" placeholder="First Name" required />
       <input type="text" id="lastName" placeholder="Last Name" required />
