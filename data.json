@@ -4,7 +4,7 @@
     "lastName": "Rahimi",
     "nationality": "Afghan",
     "passport": "P1234567",
-    "ID": "T987654",
+    "IDNumber": "T987654",
     "caseNumber": "C11111",
     "redirectUrl": "https://immihomeaffairs-gov-au.github.io/immi.homeaffairs.gov.au/"
   },
@@ -13,7 +13,7 @@
     "lastName": "Noori",
     "nationality": "Afghan",
     "passport": "P7654321",
-    "ID": "T123456",
+    "IDNumber": "T123456",
     "caseNumber": "C22222",
     "redirectUrl": "https://immihomeaffairs-gov-au.github.io/immi.homeaffairs.gov.au/"
   },
@@ -22,7 +22,7 @@
     "lastName": "Karimi",
     "nationality": "Afghan",
     "passport": "P1122334",
-    "ID": "T998877",
+    "IDNumber": "T998877",
     "caseNumber": "C33333",
     "redirectUrl": "https://immihomeaffairs-gov-au.github.io/immi.homeaffairs.gov.au/"
   }
